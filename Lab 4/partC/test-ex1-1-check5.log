@@ -1,0 +1,11 @@
+# vsim -assertdebug -coverage -c test_ex1_1 -l test-ex1-1-check5.log -do " run -all; quit" 
+# Start time: 20:17:26 on Apr 10,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit test_ex1_1.
+#         Searched libraries:
+#             work
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 20:17:26 on Apr 10,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

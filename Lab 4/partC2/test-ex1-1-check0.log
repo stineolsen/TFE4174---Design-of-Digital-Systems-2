@@ -1,0 +1,10 @@
+# vsim -assertdebug -coverage -c test_ex1_1 -l test-ex1-1-check0.log -do " run -all; quit" 
+# Start time: 15:56:13 on Apr 11,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: test-ex1_1.sv(9): Module 'ex1_1' is not defined.
+#  For instance 'dut' at path 'test_ex1_1'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 15:56:13 on Apr 11,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

@@ -1,0 +1,11 @@
+# vsim -assertdebug -coverage -c test_top_level -l test-top_level-check0.log -do " run -all; quit" 
+# Start time: 20:40:20 on Apr 10,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit test_top_level.
+#         Searched libraries:
+#             work
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 20:40:20 on Apr 10,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

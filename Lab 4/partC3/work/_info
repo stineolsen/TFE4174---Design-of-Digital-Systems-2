@@ -1,0 +1,143 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e MIXED_VERSIONS
+!s11f vlog 2021.4_2 2021.12, Dec  4 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/courses/desdigsys2/2022s//dds222s20/lab-4/partC3
+T_opt
+!s110 1649686026
+VA2lg9`oDikEFC`^aPKa>]3
+04 10 4 work test_ex1_1 fast 0
+=1-782bcb167ba2-6254360a-96f66-50b6
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OE;O;2021.4_2;73
+Ealu
+Z3 w1649685606
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R1
+Z7 8alu.vhd
+Z8 Falu.vhd
+l0
+L5 1
+VaPY2URYBQS][i_i`HTALG2
+!s100 Jb0^3P@C3H6XPlZ^o?2F12
+Z9 OE;C;2021.4_2;73
+32
+Z10 !s110 1649686025
+!i10b 1
+Z11 !s108 1649686024.000000
+Z12 !s90 alu.vhd|
+Z13 !s107 alu.vhd|
+!i113 0
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R4
+R5
+R6
+DEx4 work 3 alu 0 22 aPY2URYBQS][i_i`HTALG2
+!i122 5
+l18
+L13 42
+V1SAL`T?ZzU263]11aj80<2
+!s100 9dRkYmQ`[_mRMP=_HKAlB3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+vex1_1
+Z15 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1649685788
+!i10b 1
+!s100 hK]GH?UR4P:d5n4?naFhI0
+IR@D;c7nBb2hK5Bb3QC2ga1
+S1
+R1
+w1649685639
+8ex1-1.v
+Fex1-1.v
+!i122 0
+L0 12 69
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OE;L;2021.4_2;73
+r1
+!s85 0
+31
+!s108 1649685788.000000
+Z18 !s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
+Z19 !s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check0|
+!i113 0
+Z20 !s102 +cover
+Z21 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z22 !s92 -sv +acc +cover +define+check0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vex1_1_property
+R15
+!s110 1649686012
+!i10b 1
+!s100 NbSkFkKf6<M>IS6E3<nBb2
+I1m[00?04X0;33DL<]l_U?2
+S1
+R1
+w1649685650
+8ex1-1-property.sv
+Fex1-1-property.sv
+!i122 2
+L0 11 101
+R16
+R17
+r1
+!s85 0
+31
+!s108 1649686012.000000
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R2
+vtest_ex1_1
+R15
+!s110 1649686024
+!i10b 1
+!s100 PQ0z36@m_PB=<84PI9njh1
+IlDBj6`zd<2<AO1M>YQLW]1
+S1
+R1
+w1649685677
+8test-ex1-1.sv
+Ftest-ex1-1.sv
+!i122 4
+L0 1 78
+R16
+R17
+r1
+!s85 0
+31
+R11
+R18
+!s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check5|
+!i113 0
+R20
+R21
+!s92 -sv +acc +cover +define+check5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2

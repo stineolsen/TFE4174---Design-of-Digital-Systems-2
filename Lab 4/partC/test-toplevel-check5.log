@@ -1,0 +1,10 @@
+# vsim -assertdebug -coverage -c test_toplevel -l test-toplevel-check5.log -do " run -all; quit" 
+# Start time: 18:59:32 on Apr 11,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: toplevel.v(26): Module 'ex1_1' is not defined.
+#  For instance 'fsm' at path 'test_toplevel.dut'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 18:59:32 on Apr 11,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e MIXED_VERSIONS
+!s11f vlog 2021.4_2 2021.12, Dec  4 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/courses/desdigsys2/2022s/dds222s20/lab-4/partC
+T_opt
+!s110 1649701121
+VQ5ab2FC]Oam?IXGP`HRIY0
+04 13 4 work test_toplevel fast 0
+=1-782bcb167ba2-62547101-2fc40-3136
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;2021.4_2;73
+Ealu
+Z2 w1649689610
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z6 8alu.vhd
+Z7 Falu.vhd
+l0
+L5 1
+V?VCQa7li03<JODbATi?062
+!s100 D@0FW?FADD::^MmB[OUHL1
+Z8 OE;C;2021.4_2;73
+32
+Z9 !s110 1649701119
+!i10b 1
+Z10 !s108 1649701119.000000
+Z11 !s90 alu.vhd|
+Z12 !s107 alu.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 ?VCQa7li03<JODbATi?062
+!i122 1
+l18
+L13 46
+V5WJTG@dZHXk7gQVD1ZoC<0
+!s100 5Z8RB6`gSdS2]kTkLJBVn0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+vex1_1
+Z14 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R9
+!i10b 1
+!s100 kz:^a6DH2XZmz_`:l`d2O2
+I;>zh9mh3NQ=o4?_QO8kQQ3
+S1
+R0
+w1649696843
+8ex1-1.v
+Fex1-1.v
+!i122 0
+L0 12 70
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+Z16 OE;L;2021.4_2;73
+r1
+!s85 0
+31
+R10
+Z17 !s107 toplevel-property.sv|ex1-1.v|toplevel.v|test-toplevel.sv|
+Z18 !s90 +cover=bcefsx|-sv|test-toplevel.sv|toplevel.v|ex1-1.v|toplevel-property.sv|
+!i113 0
+Z19 !s102 +cover=bcefsx
+Z20 o+cover=bcefsx -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtest_toplevel
+R14
+R9
+!i10b 1
+!s100 :1d:W^Db8e1Anh0E]PD711
+I;zIA`zWz_n=4bA@>5Q2Cz3
+S1
+R0
+w1649701118
+8test-toplevel.sv
+Ftest-toplevel.sv
+!i122 0
+L0 1 120
+R15
+R16
+r1
+!s85 0
+31
+R10
+R17
+R18
+!i113 0
+R19
+R20
+R1
+vtoplevel
+R14
+R9
+!i10b 1
+!s100 o=RENFNckZ3nU4]REb7PL2
+I9;3UhSQD3l4Z[Dc>5?BID0
+S1
+R0
+w1649694321
+8toplevel.v
+Ftoplevel.v
+!i122 0
+L0 1 39
+R15
+R16
+r1
+!s85 0
+31
+R10
+R17
+R18
+!i113 0
+R19
+R20
+R1
+vtoplevel_property
+R14
+R9
+!i10b 1
+!s100 e0IFVQo>hlM>UUj9d>DY83
+Idb:VAY^Pg[HE@eFUU36?m2
+S1
+R0
+w1649692261
+8toplevel-property.sv
+Ftoplevel-property.sv
+!i122 0
+L0 11 103
+R15
+R16
+r1
+!s85 0
+31
+R10
+R17
+R18
+!i113 0
+R19
+R20
+R1
