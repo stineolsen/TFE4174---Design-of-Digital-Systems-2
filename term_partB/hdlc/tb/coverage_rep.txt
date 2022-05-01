@@ -1,0 +1,812 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /test_hdlc/u_testPr
+=== Design Unit: work.testPr_hdlc
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      3        na        na    74.11%
+        Coverpoints/Crosses         25        na        na        na
+            Covergroup Bins        166       104        62    62.65%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /test_hdlc/u_testPr/receive_cg                   87.50%        100          -    Uncovered            
+    covered/total bins:                                    50         58          -                      
+    missing/total bins:                                     8         58          -                      
+    % Hit:                                             86.20%        100          -                      
+    Coverpoint Rx_ValidFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_EoF                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FrameError                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Coverpoint Rx_Data                                100.00%        100          -    Covered              
+        covered/total bins:                                32         32          -                      
+        missing/total bins:                                 0         32          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_NewByte                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FlagDetect                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_AbortDetect                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_Ready                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FrameSize                            12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+    Coverpoint Rx_Overflow                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FCSen                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/test_hdlc/u_testPr/inst_receive_cg  
+                                                       87.50%        100          -    Uncovered            
+    covered/total bins:                                    50         58          -                      
+    missing/total bins:                                     8         58          -                      
+    % Hit:                                             86.20%        100          -                      
+    Coverpoint Rx_ValidFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin FrameValid                                   8137          1          -    Covered              
+        bin FrameNotValid                                1843          1          -    Covered              
+    Coverpoint Rx_EoF                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin EndOfFile                                      12          1          -    Covered              
+        bin NotEndOfFile                                 9968          1          -    Covered              
+    Coverpoint Rx_FrameError                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin FrameError                                      0          1          -    ZERO                 
+        bin NotFrameError                                9980          1          -    Covered              
+    Coverpoint Rx_Data                                100.00%        100          -    Covered              
+        covered/total bins:                                32         32          -                      
+        missing/total bins:                                 0         32          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Rx_Data[0]                                    564          1          -    Covered              
+        bin Rx_Data[1]                                     48          1          -    Covered              
+        bin Rx_Data[2]                                     33          1          -    Covered              
+        bin Rx_Data[3]                                     65          1          -    Covered              
+        bin Rx_Data[4]                                     48          1          -    Covered              
+        bin Rx_Data[5]                                      8          1          -    Covered              
+        bin Rx_Data[6]                                     16          1          -    Covered              
+        bin Rx_Data[7]                                      9          1          -    Covered              
+        bin Rx_Data[8]                                     33          1          -    Covered              
+        bin Rx_Data[9]                                     41          1          -    Covered              
+        bin Rx_Data[10]                                    41          1          -    Covered              
+        bin Rx_Data[11]                                    48          1          -    Covered              
+        bin Rx_Data[12]                                     8          1          -    Covered              
+        bin Rx_Data[13]                                    24          1          -    Covered              
+        bin Rx_Data[14]                                    24          1          -    Covered              
+        bin Rx_Data[15]                                    32          1          -    Covered              
+        bin Rx_Data[16]                                    16          1          -    Covered              
+        bin Rx_Data[17]                                    32          1          -    Covered              
+        bin Rx_Data[18]                                    24          1          -    Covered              
+        bin Rx_Data[19]                                    32          1          -    Covered              
+        bin Rx_Data[20]                                    24          1          -    Covered              
+        bin Rx_Data[21]                                    72          1          -    Covered              
+        bin Rx_Data[22]                                    49          1          -    Covered              
+        bin Rx_Data[23]                                    40          1          -    Covered              
+        bin Rx_Data[24]                                    32          1          -    Covered              
+        bin Rx_Data[25]                                    41          1          -    Covered              
+        bin Rx_Data[26]                                    25          1          -    Covered              
+        bin Rx_Data[27]                                    49          1          -    Covered              
+        bin Rx_Data[28]                                    32          1          -    Covered              
+        bin Rx_Data[29]                                    56          1          -    Covered              
+        bin Rx_Data[30]                                    64          1          -    Covered              
+        bin Rx_Data[31]                                    48          1          -    Covered              
+    Coverpoint Rx_NewByte                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin NewByte                                       997          1          -    Covered              
+        bin NoNewByte                                    8983          1          -    Covered              
+    Coverpoint Rx_FlagDetect                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin FlagDetected                                   22          1          -    Covered              
+        bin FlagNotDetected                              9958          1          -    Covered              
+    Coverpoint Rx_AbortDetect                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin AbortDetected                                  18          1          -    Covered              
+        bin AbortNotDetected                             9962          1          -    Covered              
+    Coverpoint Rx_Ready                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Ready                                         992          1          -    Covered              
+        bin NotReady                                     8988          1          -    Covered              
+    Coverpoint Rx_FrameSize                            12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+        bin FrameSize[0]                                  636          1          -    Covered              
+        bin FrameSize[1]                                    0          1          -    ZERO                 
+        bin FrameSize[2]                                    0          1          -    ZERO                 
+        bin FrameSize[3]                                    0          1          -    ZERO                 
+        bin FrameSize[4]                                    0          1          -    ZERO                 
+        bin FrameSize[5]                                    0          1          -    ZERO                 
+        bin FrameSize[6]                                    0          1          -    ZERO                 
+        bin FrameSize[7]                                    0          1          -    ZERO                 
+    Coverpoint Rx_Overflow                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Overflow                                       92          1          -    Covered              
+        bin NotOverflow                                  9888          1          -    Covered              
+    Coverpoint Rx_FCSen                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Enabled                                      6193          1          -    Covered              
+        bin NotEnabled                                   3787          1          -    Covered              
+ TYPE /test_hdlc/u_testPr/transmit_cg                  68.18%        100          -    Uncovered            
+    covered/total bins:                                    18         40          -                      
+    missing/total bins:                                    22         40          -                      
+    % Hit:                                             45.00%        100          -                      
+    Coverpoint Tx_ValidFrame                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Coverpoint Tx_AbortedTrans                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_NewByte                              50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Coverpoint Tx_Data                                 12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+    Coverpoint Tx_Done                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_Full                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_DataAvail                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_FrameSize                            25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+    Coverpoint Tx_DataOutBuff                          12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+    Coverpoint Tx_WrBuff                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_AbortFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/test_hdlc/u_testPr/inst_transmit_cg  
+                                                       68.18%        100          -    Uncovered            
+    covered/total bins:                                    18         40          -                      
+    missing/total bins:                                    22         40          -                      
+    % Hit:                                             45.00%        100          -                      
+    Coverpoint Tx_ValidFrame                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin FrameValid                                      0          1          -    ZERO                 
+        bin FrameNotValid                                9980          1          -    Covered              
+    Coverpoint Tx_AbortedTrans                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin TransmissionAborted                            23          1          -    Covered              
+        bin TransmissionNotAborted                       9957          1          -    Covered              
+    Coverpoint Tx_NewByte                              50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin NewByte                                         0          1          -    ZERO                 
+        bin NoNewByte                                    9980          1          -    Covered              
+    Coverpoint Tx_Data                                 12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+        bin Tx_Data[0]                                     42          1          -    Covered              
+        bin Tx_Data[1]                                      0          1          -    ZERO                 
+        bin Tx_Data[2]                                      0          1          -    ZERO                 
+        bin Tx_Data[3]                                      0          1          -    ZERO                 
+        bin Tx_Data[4]                                      0          1          -    ZERO                 
+        bin Tx_Data[5]                                      0          1          -    ZERO                 
+        bin Tx_Data[6]                                      0          1          -    ZERO                 
+        bin Tx_Data[7]                                      0          1          -    ZERO                 
+    Coverpoint Tx_Done                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Done                                         9536          1          -    Covered              
+        bin NotDone                                       444          1          -    Covered              
+    Coverpoint Tx_Full                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Full                                            6          1          -    Covered              
+        bin NotFull                                      9974          1          -    Covered              
+    Coverpoint Tx_DataAvail                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Available                                     124          1          -    Covered              
+        bin NotAvailable                                 9856          1          -    Covered              
+    Coverpoint Tx_FrameSize                            25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin Tx_FrameSize[0]                              9834          1          -    Covered              
+        bin Tx_FrameSize[1]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[2]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[3]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[4]                                44          1          -    Covered              
+        bin Tx_FrameSize[5]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[6]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[7]                                 0          1          -    ZERO                 
+    Coverpoint Tx_DataOutBuff                          12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+        bin Tx_DataOutBuff[0]                            9880          1          -    Covered              
+        bin Tx_DataOutBuff[1]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[2]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[3]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[4]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[5]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[6]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[7]                               0          1          -    ZERO                 
+    Coverpoint Tx_WrBuff                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin BufferWritten                                 160          1          -    Covered              
+        bin BufferNotWritten                             9820          1          -    Covered              
+    Coverpoint Tx_AbortFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Aborted                                         3          1          -    Covered              
+        bin NotAborted                                   9977          1          -    Covered              
+ TYPE /test_hdlc/u_testPr/registerinterface_cg         66.66%        100          -    Uncovered            
+    covered/total bins:                                    36         68          -                      
+    missing/total bins:                                    32         68          -                      
+    % Hit:                                             52.94%        100          -                      
+    Coverpoint DataIn                                  15.62%        100          -    Uncovered            
+        covered/total bins:                                 5         32          -                      
+        missing/total bins:                                27         32          -                      
+        % Hit:                                         15.62%        100          -                      
+    Coverpoint DataOut                                 84.37%        100          -    Uncovered            
+        covered/total bins:                                27         32          -                      
+        missing/total bins:                                 5         32          -                      
+        % Hit:                                         84.37%        100          -                      
+    Coverpoint Address                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/test_hdlc/u_testPr/inst_registerinterface_cg  
+                                                       66.66%        100          -    Uncovered            
+    covered/total bins:                                    36         68          -                      
+    missing/total bins:                                    32         68          -                      
+    % Hit:                                             52.94%        100          -                      
+    Coverpoint DataIn                                  15.62%        100          -    Uncovered            
+        covered/total bins:                                 5         32          -                      
+        missing/total bins:                                27         32          -                      
+        % Hit:                                         15.62%        100          -                      
+        bin DataIn[0]                                    3281          1          -    Covered              
+        bin DataIn[1]                                       0          1          -    ZERO                 
+        bin DataIn[2]                                     109          1          -    Covered              
+        bin DataIn[3]                                       0          1          -    ZERO                 
+        bin DataIn[4]                                       0          1          -    ZERO                 
+        bin DataIn[5]                                       2          1          -    Covered              
+        bin DataIn[6]                                      93          1          -    Covered              
+        bin DataIn[7]                                       0          1          -    ZERO                 
+        bin DataIn[8]                                       0          1          -    ZERO                 
+        bin DataIn[9]                                       0          1          -    ZERO                 
+        bin DataIn[10]                                      0          1          -    ZERO                 
+        bin DataIn[11]                                      0          1          -    ZERO                 
+        bin DataIn[12]                                      0          1          -    ZERO                 
+        bin DataIn[13]                                      0          1          -    ZERO                 
+        bin DataIn[14]                                      2          1          -    Covered              
+        bin DataIn[15]                                      0          1          -    ZERO                 
+        bin DataIn[16]                                      0          1          -    ZERO                 
+        bin DataIn[17]                                      0          1          -    ZERO                 
+        bin DataIn[18]                                      0          1          -    ZERO                 
+        bin DataIn[19]                                      0          1          -    ZERO                 
+        bin DataIn[20]                                      0          1          -    ZERO                 
+        bin DataIn[21]                                      0          1          -    ZERO                 
+        bin DataIn[22]                                      0          1          -    ZERO                 
+        bin DataIn[23]                                      0          1          -    ZERO                 
+        bin DataIn[24]                                      0          1          -    ZERO                 
+        bin DataIn[25]                                      0          1          -    ZERO                 
+        bin DataIn[26]                                      0          1          -    ZERO                 
+        bin DataIn[27]                                      0          1          -    ZERO                 
+        bin DataIn[28]                                      0          1          -    ZERO                 
+        bin DataIn[29]                                      0          1          -    ZERO                 
+        bin DataIn[30]                                      0          1          -    ZERO                 
+        bin DataIn[31]                                      0          1          -    ZERO                 
+    Coverpoint DataOut                                 84.37%        100          -    Uncovered            
+        covered/total bins:                                27         32          -                      
+        missing/total bins:                                 5         32          -                      
+        % Hit:                                         84.37%        100          -                      
+        bin DataOut[0]                                   9518          1          -    Covered              
+        bin DataOut[1]                                      3          1          -    Covered              
+        bin DataOut[2]                                      2          1          -    Covered              
+        bin DataOut[3]                                      5          1          -    Covered              
+        bin DataOut[4]                                      3          1          -    Covered              
+        bin DataOut[5]                                      0          1          -    ZERO                 
+        bin DataOut[6]                                      1          1          -    Covered              
+        bin DataOut[7]                                      0          1          -    ZERO                 
+        bin DataOut[8]                                      2          1          -    Covered              
+        bin DataOut[9]                                      2          1          -    Covered              
+        bin DataOut[10]                                     1          1          -    Covered              
+        bin DataOut[11]                                     2          1          -    Covered              
+        bin DataOut[12]                                     1          1          -    Covered              
+        bin DataOut[13]                                     1          1          -    Covered              
+        bin DataOut[14]                                     2          1          -    Covered              
+        bin DataOut[15]                                     0          1          -    ZERO                 
+        bin DataOut[16]                                     0          1          -    ZERO                 
+        bin DataOut[17]                                     3          1          -    Covered              
+        bin DataOut[18]                                     1          1          -    Covered              
+        bin DataOut[19]                                     2          1          -    Covered              
+        bin DataOut[20]                                     2          1          -    Covered              
+        bin DataOut[21]                                     5          1          -    Covered              
+        bin DataOut[22]                                     3          1          -    Covered              
+        bin DataOut[23]                                     3          1          -    Covered              
+        bin DataOut[24]                                     3          1          -    Covered              
+        bin DataOut[25]                                     0          1          -    ZERO                 
+        bin DataOut[26]                                     1          1          -    Covered              
+        bin DataOut[27]                                     6          1          -    Covered              
+        bin DataOut[28]                                     2          1          -    Covered              
+        bin DataOut[29]                                     4          1          -    Covered              
+        bin DataOut[30]                                     4          1          -    Covered              
+        bin DataOut[31]                                     3          1          -    Covered              
+    Coverpoint Address                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Tx_SC                                         191          1          -    Covered              
+        bin Tx_Buff                                       321          1          -    Covered              
+        bin Rx_SC                                        8457          1          -    Covered              
+        bin Rx_Buff                                      1011          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /test_hdlc/u_testPr/receive_cg                   87.50%        100          -    Uncovered            
+    covered/total bins:                                    50         58          -                      
+    missing/total bins:                                     8         58          -                      
+    % Hit:                                             86.20%        100          -                      
+    Coverpoint Rx_ValidFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_EoF                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FrameError                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Coverpoint Rx_Data                                100.00%        100          -    Covered              
+        covered/total bins:                                32         32          -                      
+        missing/total bins:                                 0         32          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_NewByte                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FlagDetect                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_AbortDetect                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_Ready                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FrameSize                            12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+    Coverpoint Rx_Overflow                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Rx_FCSen                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/test_hdlc/u_testPr/inst_receive_cg  
+                                                       87.50%        100          -    Uncovered            
+    covered/total bins:                                    50         58          -                      
+    missing/total bins:                                     8         58          -                      
+    % Hit:                                             86.20%        100          -                      
+    Coverpoint Rx_ValidFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin FrameValid                                   8137          1          -    Covered              
+        bin FrameNotValid                                1843          1          -    Covered              
+    Coverpoint Rx_EoF                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin EndOfFile                                      12          1          -    Covered              
+        bin NotEndOfFile                                 9968          1          -    Covered              
+    Coverpoint Rx_FrameError                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin FrameError                                      0          1          -    ZERO                 
+        bin NotFrameError                                9980          1          -    Covered              
+    Coverpoint Rx_Data                                100.00%        100          -    Covered              
+        covered/total bins:                                32         32          -                      
+        missing/total bins:                                 0         32          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Rx_Data[0]                                    564          1          -    Covered              
+        bin Rx_Data[1]                                     48          1          -    Covered              
+        bin Rx_Data[2]                                     33          1          -    Covered              
+        bin Rx_Data[3]                                     65          1          -    Covered              
+        bin Rx_Data[4]                                     48          1          -    Covered              
+        bin Rx_Data[5]                                      8          1          -    Covered              
+        bin Rx_Data[6]                                     16          1          -    Covered              
+        bin Rx_Data[7]                                      9          1          -    Covered              
+        bin Rx_Data[8]                                     33          1          -    Covered              
+        bin Rx_Data[9]                                     41          1          -    Covered              
+        bin Rx_Data[10]                                    41          1          -    Covered              
+        bin Rx_Data[11]                                    48          1          -    Covered              
+        bin Rx_Data[12]                                     8          1          -    Covered              
+        bin Rx_Data[13]                                    24          1          -    Covered              
+        bin Rx_Data[14]                                    24          1          -    Covered              
+        bin Rx_Data[15]                                    32          1          -    Covered              
+        bin Rx_Data[16]                                    16          1          -    Covered              
+        bin Rx_Data[17]                                    32          1          -    Covered              
+        bin Rx_Data[18]                                    24          1          -    Covered              
+        bin Rx_Data[19]                                    32          1          -    Covered              
+        bin Rx_Data[20]                                    24          1          -    Covered              
+        bin Rx_Data[21]                                    72          1          -    Covered              
+        bin Rx_Data[22]                                    49          1          -    Covered              
+        bin Rx_Data[23]                                    40          1          -    Covered              
+        bin Rx_Data[24]                                    32          1          -    Covered              
+        bin Rx_Data[25]                                    41          1          -    Covered              
+        bin Rx_Data[26]                                    25          1          -    Covered              
+        bin Rx_Data[27]                                    49          1          -    Covered              
+        bin Rx_Data[28]                                    32          1          -    Covered              
+        bin Rx_Data[29]                                    56          1          -    Covered              
+        bin Rx_Data[30]                                    64          1          -    Covered              
+        bin Rx_Data[31]                                    48          1          -    Covered              
+    Coverpoint Rx_NewByte                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin NewByte                                       997          1          -    Covered              
+        bin NoNewByte                                    8983          1          -    Covered              
+    Coverpoint Rx_FlagDetect                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin FlagDetected                                   22          1          -    Covered              
+        bin FlagNotDetected                              9958          1          -    Covered              
+    Coverpoint Rx_AbortDetect                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin AbortDetected                                  18          1          -    Covered              
+        bin AbortNotDetected                             9962          1          -    Covered              
+    Coverpoint Rx_Ready                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Ready                                         992          1          -    Covered              
+        bin NotReady                                     8988          1          -    Covered              
+    Coverpoint Rx_FrameSize                            12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+        bin FrameSize[0]                                  636          1          -    Covered              
+        bin FrameSize[1]                                    0          1          -    ZERO                 
+        bin FrameSize[2]                                    0          1          -    ZERO                 
+        bin FrameSize[3]                                    0          1          -    ZERO                 
+        bin FrameSize[4]                                    0          1          -    ZERO                 
+        bin FrameSize[5]                                    0          1          -    ZERO                 
+        bin FrameSize[6]                                    0          1          -    ZERO                 
+        bin FrameSize[7]                                    0          1          -    ZERO                 
+    Coverpoint Rx_Overflow                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Overflow                                       92          1          -    Covered              
+        bin NotOverflow                                  9888          1          -    Covered              
+    Coverpoint Rx_FCSen                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Enabled                                      6193          1          -    Covered              
+        bin NotEnabled                                   3787          1          -    Covered              
+ TYPE /test_hdlc/u_testPr/transmit_cg                  68.18%        100          -    Uncovered            
+    covered/total bins:                                    18         40          -                      
+    missing/total bins:                                    22         40          -                      
+    % Hit:                                             45.00%        100          -                      
+    Coverpoint Tx_ValidFrame                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Coverpoint Tx_AbortedTrans                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_NewByte                              50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Coverpoint Tx_Data                                 12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+    Coverpoint Tx_Done                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_Full                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_DataAvail                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_FrameSize                            25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+    Coverpoint Tx_DataOutBuff                          12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+    Coverpoint Tx_WrBuff                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Tx_AbortFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/test_hdlc/u_testPr/inst_transmit_cg  
+                                                       68.18%        100          -    Uncovered            
+    covered/total bins:                                    18         40          -                      
+    missing/total bins:                                    22         40          -                      
+    % Hit:                                             45.00%        100          -                      
+    Coverpoint Tx_ValidFrame                           50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin FrameValid                                      0          1          -    ZERO                 
+        bin FrameNotValid                                9980          1          -    Covered              
+    Coverpoint Tx_AbortedTrans                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin TransmissionAborted                            23          1          -    Covered              
+        bin TransmissionNotAborted                       9957          1          -    Covered              
+    Coverpoint Tx_NewByte                              50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin NewByte                                         0          1          -    ZERO                 
+        bin NoNewByte                                    9980          1          -    Covered              
+    Coverpoint Tx_Data                                 12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+        bin Tx_Data[0]                                     42          1          -    Covered              
+        bin Tx_Data[1]                                      0          1          -    ZERO                 
+        bin Tx_Data[2]                                      0          1          -    ZERO                 
+        bin Tx_Data[3]                                      0          1          -    ZERO                 
+        bin Tx_Data[4]                                      0          1          -    ZERO                 
+        bin Tx_Data[5]                                      0          1          -    ZERO                 
+        bin Tx_Data[6]                                      0          1          -    ZERO                 
+        bin Tx_Data[7]                                      0          1          -    ZERO                 
+    Coverpoint Tx_Done                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Done                                         9536          1          -    Covered              
+        bin NotDone                                       444          1          -    Covered              
+    Coverpoint Tx_Full                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Full                                            6          1          -    Covered              
+        bin NotFull                                      9974          1          -    Covered              
+    Coverpoint Tx_DataAvail                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Available                                     124          1          -    Covered              
+        bin NotAvailable                                 9856          1          -    Covered              
+    Coverpoint Tx_FrameSize                            25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin Tx_FrameSize[0]                              9834          1          -    Covered              
+        bin Tx_FrameSize[1]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[2]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[3]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[4]                                44          1          -    Covered              
+        bin Tx_FrameSize[5]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[6]                                 0          1          -    ZERO                 
+        bin Tx_FrameSize[7]                                 0          1          -    ZERO                 
+    Coverpoint Tx_DataOutBuff                          12.50%        100          -    Uncovered            
+        covered/total bins:                                 1          8          -                      
+        missing/total bins:                                 7          8          -                      
+        % Hit:                                         12.50%        100          -                      
+        bin Tx_DataOutBuff[0]                            9880          1          -    Covered              
+        bin Tx_DataOutBuff[1]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[2]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[3]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[4]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[5]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[6]                               0          1          -    ZERO                 
+        bin Tx_DataOutBuff[7]                               0          1          -    ZERO                 
+    Coverpoint Tx_WrBuff                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin BufferWritten                                 160          1          -    Covered              
+        bin BufferNotWritten                             9820          1          -    Covered              
+    Coverpoint Tx_AbortFrame                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Aborted                                         3          1          -    Covered              
+        bin NotAborted                                   9977          1          -    Covered              
+ TYPE /test_hdlc/u_testPr/registerinterface_cg         66.66%        100          -    Uncovered            
+    covered/total bins:                                    36         68          -                      
+    missing/total bins:                                    32         68          -                      
+    % Hit:                                             52.94%        100          -                      
+    Coverpoint DataIn                                  15.62%        100          -    Uncovered            
+        covered/total bins:                                 5         32          -                      
+        missing/total bins:                                27         32          -                      
+        % Hit:                                         15.62%        100          -                      
+    Coverpoint DataOut                                 84.37%        100          -    Uncovered            
+        covered/total bins:                                27         32          -                      
+        missing/total bins:                                 5         32          -                      
+        % Hit:                                         84.37%        100          -                      
+    Coverpoint Address                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/test_hdlc/u_testPr/inst_registerinterface_cg  
+                                                       66.66%        100          -    Uncovered            
+    covered/total bins:                                    36         68          -                      
+    missing/total bins:                                    32         68          -                      
+    % Hit:                                             52.94%        100          -                      
+    Coverpoint DataIn                                  15.62%        100          -    Uncovered            
+        covered/total bins:                                 5         32          -                      
+        missing/total bins:                                27         32          -                      
+        % Hit:                                         15.62%        100          -                      
+        bin DataIn[0]                                    3281          1          -    Covered              
+        bin DataIn[1]                                       0          1          -    ZERO                 
+        bin DataIn[2]                                     109          1          -    Covered              
+        bin DataIn[3]                                       0          1          -    ZERO                 
+        bin DataIn[4]                                       0          1          -    ZERO                 
+        bin DataIn[5]                                       2          1          -    Covered              
+        bin DataIn[6]                                      93          1          -    Covered              
+        bin DataIn[7]                                       0          1          -    ZERO                 
+        bin DataIn[8]                                       0          1          -    ZERO                 
+        bin DataIn[9]                                       0          1          -    ZERO                 
+        bin DataIn[10]                                      0          1          -    ZERO                 
+        bin DataIn[11]                                      0          1          -    ZERO                 
+        bin DataIn[12]                                      0          1          -    ZERO                 
+        bin DataIn[13]                                      0          1          -    ZERO                 
+        bin DataIn[14]                                      2          1          -    Covered              
+        bin DataIn[15]                                      0          1          -    ZERO                 
+        bin DataIn[16]                                      0          1          -    ZERO                 
+        bin DataIn[17]                                      0          1          -    ZERO                 
+        bin DataIn[18]                                      0          1          -    ZERO                 
+        bin DataIn[19]                                      0          1          -    ZERO                 
+        bin DataIn[20]                                      0          1          -    ZERO                 
+        bin DataIn[21]                                      0          1          -    ZERO                 
+        bin DataIn[22]                                      0          1          -    ZERO                 
+        bin DataIn[23]                                      0          1          -    ZERO                 
+        bin DataIn[24]                                      0          1          -    ZERO                 
+        bin DataIn[25]                                      0          1          -    ZERO                 
+        bin DataIn[26]                                      0          1          -    ZERO                 
+        bin DataIn[27]                                      0          1          -    ZERO                 
+        bin DataIn[28]                                      0          1          -    ZERO                 
+        bin DataIn[29]                                      0          1          -    ZERO                 
+        bin DataIn[30]                                      0          1          -    ZERO                 
+        bin DataIn[31]                                      0          1          -    ZERO                 
+    Coverpoint DataOut                                 84.37%        100          -    Uncovered            
+        covered/total bins:                                27         32          -                      
+        missing/total bins:                                 5         32          -                      
+        % Hit:                                         84.37%        100          -                      
+        bin DataOut[0]                                   9518          1          -    Covered              
+        bin DataOut[1]                                      3          1          -    Covered              
+        bin DataOut[2]                                      2          1          -    Covered              
+        bin DataOut[3]                                      5          1          -    Covered              
+        bin DataOut[4]                                      3          1          -    Covered              
+        bin DataOut[5]                                      0          1          -    ZERO                 
+        bin DataOut[6]                                      1          1          -    Covered              
+        bin DataOut[7]                                      0          1          -    ZERO                 
+        bin DataOut[8]                                      2          1          -    Covered              
+        bin DataOut[9]                                      2          1          -    Covered              
+        bin DataOut[10]                                     1          1          -    Covered              
+        bin DataOut[11]                                     2          1          -    Covered              
+        bin DataOut[12]                                     1          1          -    Covered              
+        bin DataOut[13]                                     1          1          -    Covered              
+        bin DataOut[14]                                     2          1          -    Covered              
+        bin DataOut[15]                                     0          1          -    ZERO                 
+        bin DataOut[16]                                     0          1          -    ZERO                 
+        bin DataOut[17]                                     3          1          -    Covered              
+        bin DataOut[18]                                     1          1          -    Covered              
+        bin DataOut[19]                                     2          1          -    Covered              
+        bin DataOut[20]                                     2          1          -    Covered              
+        bin DataOut[21]                                     5          1          -    Covered              
+        bin DataOut[22]                                     3          1          -    Covered              
+        bin DataOut[23]                                     3          1          -    Covered              
+        bin DataOut[24]                                     3          1          -    Covered              
+        bin DataOut[25]                                     0          1          -    ZERO                 
+        bin DataOut[26]                                     1          1          -    Covered              
+        bin DataOut[27]                                     6          1          -    Covered              
+        bin DataOut[28]                                     2          1          -    Covered              
+        bin DataOut[29]                                     4          1          -    Covered              
+        bin DataOut[30]                                     4          1          -    Covered              
+        bin DataOut[31]                                     3          1          -    Covered              
+    Coverpoint Address                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Tx_SC                                         191          1          -    Covered              
+        bin Tx_Buff                                       321          1          -    Covered              
+        bin Rx_SC                                        8457          1          -    Covered              
+        bin Rx_Buff                                      1011          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 74.11%  COVERGROUP TYPES: 3
+
+Total Coverage By Instance (filtered view): 74.11%
+
